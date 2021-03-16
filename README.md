@@ -63,3 +63,5 @@ If you cannot find `apxs` or `apxs2`, install `apache2-dev` on Debian and Ubuntu
 - If you like, you may also add the directive `DenyAllButCloudFlare`. This will result in all requests from IPs which are not in the `CloudFlareRemoteIPTrustedProxy` range being denied with a status of 403.
 
   [1]: https://www.cloudflare.com/ips
+
+- Slight modification by badlucksoft to correct build error.
